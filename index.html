@@ -1,0 +1,46 @@
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+<link rel="stylesheet" href="pomodoro.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Please do not disturb</h1>
+    <p class="lead">I'm (hopefully) deep in a problem and will (hopefully) re-surface once the timer is up.</p>
+
+    <div id="pomo">
+      <div id="timer">
+      <div id="time">
+        <span id="minutes">25</span>
+        <span id="colon">:</span>
+        <span id="seconds">00</span>
+      </div>
+      <div id="filler"></div>
+      </div>
+      <div id="buttons">
+        <button id="work" class="btn">Work</button>
+        <button id="shortWork" class="btn">Short Work</button>
+        <button id="shortBreak" class="btn">Short Break</button>
+        <button id="longBreak" class="btn">Long Break</button>
+        <button id="stop" class="btn">Stop</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="pomodoro.js"></script>
+</body>
+</html>

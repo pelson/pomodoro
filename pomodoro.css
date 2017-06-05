@@ -1,0 +1,52 @@
+#pomo {
+ border:1px solid #333;
+ border-radius :20px;
+ width: 500px;
+ margin:20px auto;
+ padding:20px;
+ text-align:center;
+ background : #333;
+}
+
+#pomo #timer {
+ color:#f00;
+ font-size:50px;
+ margin:10px auto;
+ border : 5px solid red;
+ border-radius:50%;
+ width:200px;
+ height:200px;
+ overflow:hidden;
+ position:relative;
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+ cursor:default;
+}
+
+#pomo #time {
+ margin-top:70px;
+ z-index: 1;
+ position:relative;
+}
+
+#filler {
+ background: #ddffcc;
+ height: 0px;
+ width: 200px;
+ position: absolute;
+ bottom: 0;
+}
+
+#pomo #buttons button#shortBreak {
+ background: #0c0;
+}
+
+#pomo #buttons button#longBreak {
+ background: #080;
+}
+
+#pomo #buttons button#stop {
+  background: #f00;
+}
